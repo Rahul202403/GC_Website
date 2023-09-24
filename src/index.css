@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+   .line::after{
+      @apply content-[''] bg-[#fb8500] h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300;
+   }
+   .line:hover::after{
+      @apply w-[100%];
+   }
+}

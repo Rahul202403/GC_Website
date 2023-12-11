@@ -9,4 +9,4 @@ export default function Blog(props) {
             <button className="bg-[#5e5ee2] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white hover:bg-indigo-700">View</button>
         </div>
     )
-  }
+}
